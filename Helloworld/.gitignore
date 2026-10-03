@@ -1,0 +1,43 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+### Java 构建产物 ###
+target/
+build/
+*.class
+*.jar
+*.war
+*.log
+
+### IntelliJ IDEA 专属配置 ###
+.idea/
+*.iml
+*.ipr
+*.iws
