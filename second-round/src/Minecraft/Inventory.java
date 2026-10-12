@@ -74,6 +74,7 @@ public class Inventory {
                     amountToRemove -= stack.getQuantity(); // 扣减要删的数量
                     items.remove(i);                       // 安全删除当前索引
                     //这里不能 return，继续循环看后面的堆还有没有同名的
+                    i--;
                 } else {
                     // 情况 B：当前堆够删，直接减数量
                     stack.setQuantity(stack.getQuantity() - amountToRemove);
